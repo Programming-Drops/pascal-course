@@ -1,7 +1,7 @@
 program ola;
 
 var
-  nome : string;    
+  nome : string;
 begin
   write('Write your name: ');
   read(nome);
