@@ -33,7 +33,7 @@ begin
   begin
     WriteLine('o valor de x é menor que 200!');
   end   
-end;
+end.
 ```
 
 ## Estruturas de controle de repetição 
@@ -98,6 +98,7 @@ begin
     x := i * 2;
     WriteLn(i, '* 2 = ', x);
   end;
+end.
 ```
 
 ### Somatório
@@ -114,6 +115,7 @@ begin
     soma += n;    
   end;
   WriteLn(soma);
+end.  
 ```
 
 ### IMC
