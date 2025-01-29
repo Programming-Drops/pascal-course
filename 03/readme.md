@@ -14,7 +14,7 @@ begin
   x := 100;
   if (x > 200) then
   begin    
-    WriteLine('o valor de x é maior que 200!');
+    WriteLn('o valor de x é maior que 200!');
   end;
 end;
 ```
