@@ -5,10 +5,36 @@ As estruturas de controle em Pascal são comandos que alteram a ordem de execuç
 As estruturas de controle em Pascal podem ser de desvio ou de repetição. 
 
 ## Estruturas de controle de desvio 
-`if`: Compara uma condição e executa um bloco de código se a condição for verdadeira
+`if..then`: Compara uma condição e executa um bloco de código se a condição for verdadeira
+
+```pascal
+var 
+  x: integer;
+begin
+  x := 100;
+  if (x > 200) then
+  begin    
+    WriteLine('o valor de x é maior que 200!');
+  end;
+end;
+```
 
 `else`: Executa um bloco de código se a condição for falsa
-
+```pascal
+var 
+  x: integer;
+begin
+  x := 100;
+  if (x > 200) then
+  begin
+    WriteLine('o valor de x é maior que 200!');
+  end
+  else
+  begin
+    WriteLine('o valor de x é menor que 200!');
+  end   
+end;
+```
 
 ## Estruturas de controle de repetição 
 
@@ -89,3 +115,13 @@ begin
   end;
   WriteLn(soma);
 ```
+
+### IMC
+
+Calcule o IMC sabendo que `IMC = (peso em kg) / (altura em metros) ao quadrado`. A tabela abaixo mostra a classificação corporal de acordo com o IMC. 
+
+|           | IMC         | PESO             |
+|-----------|-------------|------------------|
+| magreza   | < 18.5      | < 59.9 Kg        |
+| sobrepeso | 15.5 a 24.9 | 59.9kg a 80.7 Kg |
+| obesidade | > 30        | > 97.2 Kg        |
