@@ -122,8 +122,9 @@ end.
 
 Calcule o IMC sabendo que `IMC = (peso em kg) / (altura em metros) ao quadrado`. A tabela abaixo mostra a classificação corporal de acordo com o IMC. 
 
-|           | IMC         | PESO             |
-|-----------|-------------|------------------|
-| magreza   | < 18.5      | < 59.9 Kg        |
-| sobrepeso | 15.5 a 24.9 | 59.9kg a 80.7 Kg |
-| obesidade | > 30        | > 97.2 Kg        |
+|                    | IMC         |
+|--------------------|-------------|
+| abaixo do normal   | < 18.5      |
+| normal             | 18.5 a 24.9 |
+| sobrepeso          | 24.9 a 29.9 |
+| obesidade          | > 29.9      |
