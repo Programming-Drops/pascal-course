@@ -14,8 +14,9 @@ begin
 
   resultado := peso / (altura * altura);
 
-  Write('  Seu IMC é ', resultado:4:2, '. ');
-  if (resultado <= 18.5) then
+  WriteLn('  Seu IMC é ', resultado:4:2, '. ');
+
+  if (resultado < 18.5) then
     WriteLn('Você está com peso abaixo do ideal')
   else
   if (resultado <= 24.9) then
